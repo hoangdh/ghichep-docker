@@ -1,7 +1,5 @@
 ## Docker là gì?
 
-Một vài ghi chép nhỏ về Docker trong quá trình tìm hiểu và sử dụng. - https://linuxvn.info
-
 ### Nội dung bài viết
 
 - [1. Khái niệm Docker](#1)
@@ -410,6 +408,12 @@ RUN echo "Hello world!"
 - **VOLUME**: Cho phép truy cập/liên kết thư mục giữa container với host.
 - **EXPOSE**: Khai báo các Port Container sử dụng.
 - **ARG**: Khai báo sử dụng tham số khi build image sử dụng câu lệnh `docker build` với cờ`--build-arg <varname>=<value>`
+
+#### Chia sẻ một số Dockerfile
+
+- KMS Server - https://gist.github.com/hoangdh/ed45d2c350a28ed3814e4f08d5fffe71
+- NGINX RTMP - Đang cập nhật
+
 
 ### 6. Docker-compose <a name="6"></a>
 Ref: https://docs.docker.com/compose/overview/
