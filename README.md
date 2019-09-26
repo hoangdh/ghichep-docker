@@ -11,7 +11,7 @@
 - [4. Volume trong Docker](#4)
 
 - [5. Dockerfile](#5)
-  - [Chia sẻ một số dockerfile](#5.1)
+  - [Chia sẻ một số Dockerfile](#5.1)
   
 - [6. Docker Compose](#6)
 
@@ -409,7 +409,7 @@ RUN echo "Hello world!"
 - **EXPOSE**: Khai báo các Port Container sử dụng.
 - **ARG**: Khai báo sử dụng tham số khi build image sử dụng câu lệnh `docker build` với cờ`--build-arg <varname>=<value>`
 
-#### Chia sẻ một số Dockerfile
+#### Chia sẻ một số Dockerfile  <a name="5.1"></a>
 
 - KMS Server - https://gist.github.com/hoangdh/ed45d2c350a28ed3814e4f08d5fffe71
 - NGINX RTMP - Đang cập nhật
