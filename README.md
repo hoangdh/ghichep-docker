@@ -412,8 +412,7 @@ RUN echo "Hello world!"
 #### Chia sẻ một số Dockerfile  <a name="5.1"></a>
 
 - KMS Server - https://gist.github.com/hoangdh/ed45d2c350a28ed3814e4f08d5fffe71
-- NGINX RTMP - Đang cập nhật
-
+- NGINX RTMP - https://raw.githubusercontent.com/hoangdh/ghichep-StreamingVideo/master/Dockerfile
 
 ### 6. Docker-compose <a name="6"></a>
 Ref: https://docs.docker.com/compose/overview/
