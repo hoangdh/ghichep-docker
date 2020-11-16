@@ -12,7 +12,7 @@
 
 - [5. Dockerfile](#5)
   - [Chia sẻ một số Dockerfile](#5.1)
-  
+  - [Làm thế nào để tối ưu Docker Image](#5.2)
 - [6. Docker Compose](#6)
 
 ### 1. Khái niệm <a name="1"></a>
@@ -413,6 +413,9 @@ RUN echo "Hello world!"
 
 - KMS Server - https://gist.github.com/hoangdh/ed45d2c350a28ed3814e4f08d5fffe71
 - NGINX RTMP - https://raw.githubusercontent.com/hoangdh/ghichep-StreamingVideo/master/Dockerfile
+
+#### Làm thế nào để tối ưu Docker Image  <a name="5.2"></a>
+- Slide sơ sài: https://github.com/hoangdh/ghichep-docker/blob/master/docs/Docker-images-optimized.pptx
 
 ### 6. Docker-compose <a name="6"></a>
 Ref: https://docs.docker.com/compose/overview/
