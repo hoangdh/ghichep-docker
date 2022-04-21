@@ -36,7 +36,7 @@ Công nghệ container ngày càng phổ biến bởi:
 - Container chạy trực tiếp trên môi trường máy chủ như một tiến trình và chia sẻ phần kernel bên dưới dùng chung với máy chủ chứa nó
 - VM tạo ra một môi trường giả lập hoàn toàn tách biệt như 1 máy hoàn chỉnh thông qua việc phân bổ tài nguyên của máy chủ, do đó sẽ tốn tài nguyên nhiều hơn cho hệ điều hành của máy ảo
 
-<img width="100%"  src="https://i2.wp.com/blog.docker.com/wp-content/uploads/Blog.-Are-containers-..VM-Image-1-1024x435.png?ssl=1" />
+<img width="100%"  src="https://www.sdxcentral.com/cdn-cgi/image/w=748,h=318,fit=scale-down,f=auto,q=85/https://www.sdxcentral.com/wp-content/uploads/2019/05/ContainersvsVMs_Image.jpg" />
 
 ### 2. Cấu trúc và thành phần của Docker <a name="2"></a>
 
@@ -47,7 +47,7 @@ Docker bao gồm:
 - Docker Hub (registry): Nơi lưu trữ các images 
 
 
-<img width='75%' src="https://cdn-images-1.medium.com/max/800/0*XKTCmmou4fT6os-c." />
+<img width='75%' src="https://docs.docker.com/engine/images/architecture.svg" />
 
 #### 2.1 Docker Client
 
@@ -258,7 +258,7 @@ Việc liên kết các container để chúng có thể 'trò chuyện' với n
 docker run -d --link db6:db.example.com --name wp1 -p 80:80,443:443 wordpress
 ```
 
-- `--link db6:db.example.com`: Liên kết với container có tên là `db6` và có alias là `db.example.com` (giá trị này tương đương với FDQN)
+- `--link db6:db.example.com`: Liên kết với container có tên là `db6` và có alias là `db.example.com` (giá trị này tương đương với FQDN)
 
 #### To be continued
 
