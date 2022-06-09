@@ -357,7 +357,7 @@ Docker hỗ trợ 3 kiểu Volume như sau:
 - Volume
 - tmpfs mount
 
-<img src="https://i1.wp.com/stephenafamo.com/blog/wp-content/uploads/2018/02/types-of-mounts-volume.png?w=502&ssl=1" />
+ ![volume-in-docker](https://docs.docker.com/storage/images/types-of-mounts-volume.png)
 
 #### Chi tiết 
 
