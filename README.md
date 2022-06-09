@@ -415,7 +415,7 @@ RUN echo "Hello world!"
 - NGINX RTMP - https://raw.githubusercontent.com/hoangdh/ghichep-StreamingVideo/master/Dockerfile
 
 #### Làm thế nào để tối ưu Docker Image  <a name="5.2"></a>
-- Slide sơ sài: https://github.com/hoangdh/ghichep-docker/blob/master/docs/Docker-images-optimized.pptx
+- Slide sơ sài: https://github.com/hoangdh/ghichep-docker/blob/master/docs/Docker-images-optimized.pdf
 
 ### 6. Docker-compose <a name="6"></a>
 Ref: https://docs.docker.com/compose/overview/
