@@ -1,0 +1,11 @@
+{
+	"data-root": "/data/docker", 
+	"insecure-registries": ["registry.hoangdh.internal:8080", "old.registry.hoangdh.internal"],
+	"dns": ["10.10.10.10", "8.8.8.8"],
+	"bip": "172.18.0.1/24",
+	"log-driver": "json-file",
+  		"log-opts": {
+    			"max-size": "100m",
+    			"max-file": "3"
+ 		 }
+}
